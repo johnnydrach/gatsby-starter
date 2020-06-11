@@ -25,10 +25,9 @@ export default {
     XLarge: "4rem",
     xxLarge: "6rem",
   },
-  animations,: {
-      button: "box-shadow 0.3s ease",
-      link: "color 0.2s ease",
+  animations: {
+    button: "box-shadow 0.3s ease",
+    link: "color 0.2s ease",
   },
   shadow1: "0px 5px 20px rgba(30, 30, 31, 0.05)",
-},
 }

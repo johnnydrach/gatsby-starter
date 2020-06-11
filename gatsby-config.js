@@ -41,7 +41,12 @@ module.exports = {
               maxWidth: 1200,
             },
           },
-          `gatsby-plugin-styled-components`,
+          {
+            resolve: `gatsby-plugin-styled-components`,
+            options: {
+              // Add any options here
+            },
+          },
         ],
       },
     },
